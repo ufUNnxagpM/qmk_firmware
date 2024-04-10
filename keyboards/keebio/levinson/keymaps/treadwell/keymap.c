@@ -39,7 +39,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //|----+----+----+----+----+----|    |----+----+----+----+----+----|
      LSFT, Z  , X  , C  , V  , B  ,      N  , M  ,COMM,DOT ,SLSH, X4 ,
   //|----+----+----+----+----+----|    |----+----+----+----+----+----|
-      X3 ,LCTL,LALT,LGUI, X1 ,LALT,     SPC , X2 ,LEFT,DOWN, UP ,RGHT
+      X3 ,LCTL,LALT,LGUI, X1 ,LALT,     SPC , X2 ,    ,    ,    ,
   //`----+----+----+----+----+----'    `----+----+----+----+----+----'
   ),
 
@@ -51,7 +51,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //|----+----+----+----+----+----|    |----+----+----+----+----+----|
      LSFT, Z  , X  , C  , V  , B  ,      K  , M  ,COMM,DOT ,SLSH, X4 ,
   //|----+----+----+----+----+----|    |----+----+----+----+----+----|
-      X3 ,LCTL,LALT,LGUI, X1 ,LALT,     SPC , X2 ,LEFT,DOWN, UP ,RGHT
+      X3 ,LCTL,LALT,LGUI, X1 ,LALT,     SPC , X2 ,    ,    ,    ,
   //`----+----+----+----+----+----'    `----+----+----+----+----+----'
   ),
 
@@ -71,9 +71,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //,----+----+----+----+----+----.    ,----+----+----+----+----+----.
      TILD,EXLM, AT ,HASH,DLR ,PERC,     CIRC,AMPR,ASTR,LPRN,RPRN, DEL,
   //|----+----+----+----+----+----|    |----+----+----+----+----+----|
-     GRV , 1  , 2  , 3  , 4  , 5  ,      6  , 7  , 8  , 9  , 0  ,UNDS,
+     GRV , 1  , 2  , 3  , 4  , 5  ,      6  , 7  , 8  , 9  , 0  ,    ,
   //|----+----+----+----+----+----|    |----+----+----+----+----+----|
-         ,    ,MPRV,MNXT,MPLY,    ,         ,VOLD,VOLU,MUTE,    ,    ,
+         ,    ,    ,    ,    ,    ,         ,VOLD,VOLU,MUTE,    ,    ,
   //|----+----+----+----+----+----|    |----+----+----+----+----+----|
          ,    ,    ,    ,    ,LALT,         ,    ,    ,    ,    ,
   //`----+----+----+----+----+----'    `----+----+----+----+----+----'
@@ -81,11 +81,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
   [_CODE] = LAYOUT_kc(
   //,----+------+----+----+----+----.    ,----+----+----+----+----+----.
-     ESC ,      ,    , UP ,    ,    ,     PGUP,HOME,LPRN,RPRN,BSLS,PIPE,
+         ,      ,    , UP ,    ,    ,         ,HOME,LPRN,RPRN,BSLS,PIPE,
   //|----+------+----+----+----+----|    |----+----+----+----+----+----|
-     CAPS,SELECT,LEFT,DOWN,RGHT,DEL ,     PGDN, END,LBRC,RBRC,MINS,UNDS,
+         ,      ,LEFT,DOWN,RGHT,DEL ,         , END,LBRC,RBRC,MINS,UNDS,
   //|----+------+----+----+----+----|    |----+----+----+----+----+----|
-     LSFT, UNDO ,CUT ,COPY,PASTE,   ,     LEFT,RGHT,LCBR,RCBR,PLUS, EQL,
+         ,      ,    ,    ,    ,    ,         ,    ,LCBR,RCBR,PLUS, EQL,
   //|----+------+----+----+----+----|    |----+----+----+----+----+----|
          ,      ,    ,    ,    ,LALT,         ,    ,    ,    ,    ,
   //`----+------+----+----+----+----'    `----+----+----+----+----+----'
